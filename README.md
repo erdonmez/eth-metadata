@@ -63,10 +63,11 @@ node index.js 0x111d23Dc4434C1322925a3c844Ce454e4438f44f
 
 Features may be added later on;
 
-> - Retry logic with attempt limits  
-> - Unit and integration tests  
-> - Environment variable support for the API key  
-> - Improved error handling  
-> - Support for multiple addresses  
-> - Modularized structure (split into smaller files)  
+> - More metadata like ETH balance in USD, token balances, number of incoming & outgoing transactions, and last 5 transactions
+> - Retry logic with attempt limits
+> - Unit and integration tests
+> - Environment variable support for the API key
+> - Improved error handling
+> - Support for multiple addresses
+> - Modularized structure (split into smaller files)
 > - Fallback to another API provider if Etherscan fails
